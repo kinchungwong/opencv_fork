@@ -19,6 +19,21 @@ namespace logging {
 //! @addtogroup core_logging
 //! @{
 
+/**
+ * @todo Add Documentation for addLoggingCallback
+ */
+CV_EXPORTS void addLoggingCallback(LoggingCallbackPtrType callback);
+
+/**
+ * @todo Add Documentation for removeLoggingCallback
+ */
+CV_EXPORTS void removeLoggingCallback(LoggingCallbackPtrType callback);
+
+/**
+ * @todo Add Documentation for removeAllLoggingCallbacks
+ */
+CV_EXPORTS void removeAllLoggingCallbacks();
+
 /** Set global logging level
 @return previous logging level
 */

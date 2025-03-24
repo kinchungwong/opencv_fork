@@ -35,6 +35,11 @@ enum LogLevel {
 #endif
 };
 
+/**
+ * @todo Add Documentation for LoggingCallbackPtrType
+ */
+using LoggingCallbackPtrType = void (*)(LogLevel, const char*);
+
 }}} // namespace
 
 //! @}
